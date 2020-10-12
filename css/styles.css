@@ -1,0 +1,114 @@
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color:#ffcb05;
+}
+.focused{
+    text-decoration: none;
+    color:#ffcb05;
+}
+.header-container{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: #741ce8;
+    padding: 15px 0px 15px 150px;
+    border-bottom: #0000001c 2px solid;
+}
+nav{
+    display: flex;
+    font-size: 15px;
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: open sans,sans-serif;
+    justify-content: space-evenly;
+}
+.header-name{
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+    font-weight: 600;
+}
+header{
+   margin-bottom: 50px;
+}
+footer{
+    width: 100%;
+    min-height: 12vh;
+    background-color: #741ce8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer-container{
+    max-width: 970px;
+    height: 12vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #6819ce;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer-container a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-container p{
+    margin: 0;
+}
+body{
+    font-family: open sans,sans-serif;
+}
+
+.main-container{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center
+
+}
+.image-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10vw;
+}
+.image-column img{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #0000001c ;
+}
+#Name{
+    font-size: 3vh;
+    opacity: 0.7;
+    margin: 0px 0px 10px 0px;
+}
+#myName{
+    font-size: 4vh;
+    margin: 0;
+}
+.info-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+#about{
+    font-size: 2vh;
+    line-height: 3vh;
+}
