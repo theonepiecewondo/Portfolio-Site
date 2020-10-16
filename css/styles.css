@@ -90,7 +90,7 @@ body{
     width: 30vh;
     border-radius: 50%;
     object-fit: cover;
-    object-position: top;
+    object-position: 0px 25%;
     border: 2px solid #0000001c ;
 }
 #Name{
