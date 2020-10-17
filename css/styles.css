@@ -79,7 +79,7 @@ body{
     align-items: center
 
 }
-.image-column{
+/*.image-column{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,8 +91,27 @@ body{
     border-radius: 50%;
     object-fit: cover;
     object-position: 0px 25%;
-    border: 2px solid #0000001c ;
+    border: 2px solid #0000001c;
+}*/
+
+.image-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10vw;
 }
+
+#me{
+    background-image: url("../images/Michael\ Baerlocher.jpg");
+    background-size: cover;
+    background-position: 0px 25%;
+    border-radius: 50%;
+    width: 30vh;
+    height: 30vh;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
 #Name{
     font-size: 3vh;
     opacity: 0.7;
