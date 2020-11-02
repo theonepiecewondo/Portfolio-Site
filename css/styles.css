@@ -1,10 +1,10 @@
 
-a {
+nav a {
     text-decoration: none;
     background-color: transparent;
     color: #fff;
 }
-a:hover{
+nav a:hover{
     text-decoration: none;
     color:#ffcb05;
 }
@@ -25,7 +25,7 @@ a:hover{
 }
 nav{
     display: flex;
-    font-size: 15px;
+    font-size: 2vh;
     width: 25%;
     text-transform: uppercase;
     font-weight: 600;
@@ -46,7 +46,7 @@ footer{
     min-height: 12vh;
     background-color: #741ce8;
     position: absolute;
-    bottom: 0;
+    bottom: -1;
     left: 0;
 }
 .footer-container{
@@ -131,3 +131,141 @@ body{
     font-size: 2vh;
     line-height: 3vh;
 }
+
+/* Star of Projects CSS */
+
+.main-container-projects{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center
+
+}
+.projectsContainer{
+    width: 80%;
+    height: 90%;
+    flex-direction: column;
+}
+.projectsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 20px;
+}
+.projectsCard{
+    width: 35vh;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.projectsCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.projectsImg{
+    background-image: url("../images/Dungeons-Characters.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+
+}
+.projectsImg2{
+    background-image: url("../images/Motivate-Me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 23%;
+    width: 100%;
+    height: 60%;
+
+}
+.projectsImg3{
+    background-image: url("../images/Server.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+
+}
+.projectsImg4{
+    background-image: url("../images/DNDNext.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60%;
+
+}
+.projectsImg5{
+    background-image: url("../images/Dungeons-Characters-Site.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60%;
+
+}
+.projectsImg6{
+    background-image: url("../images/coming-soon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 25%;
+    width: 100%;
+    height: 60%;
+
+}
+.pojectsHeader{
+    text-align: center;
+}
+
+.projectsCard a{
+    text-decoration: none;
+    color: #000;
+}
+.projectsCard p{
+    font-size: 2vh;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1069px) {
+    .main-container-projects{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        display: flex;
+        height: 300vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center
+    
+    }
+    .projectsRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 50%;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+    .projectsCard{
+        width: 50vh;
+        height: 50vh;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        margin-bottom: 20px;
+    }
+    .header-name{
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+  }
