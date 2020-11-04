@@ -33,7 +33,7 @@ nav{
     justify-content: space-evenly;
 }
 .header-name{
-    font-size: 15px;
+    font-size: 2vh;
     color: #fff;
     margin: 0;
     font-weight: 600;
