@@ -223,7 +223,7 @@ body{
 }
 .pojectsHeader{
     text-align: center;
-    font-size: 1rem;
+    font-size: 2vh;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -233,7 +233,7 @@ body{
     color: #000;
 }
 .projectsCard p{
-    font-size: 2vh;
+    font-size: 1.75vh;
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
@@ -242,7 +242,7 @@ body{
 
 @media only screen and (max-width: 1069px) {
     .main-container-projects{
-        margin-top: 5vh;
+        margin-top: 0;
         margin-bottom: 5vh;
         display: flex;
         height: 300vh;
@@ -261,11 +261,16 @@ body{
         align-items: center;
     }
     .projectsCard{
-        width: 50vh;
-        height: 50vh;
+        width: 45vh;
+        height: 40vh;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         margin-bottom: 20px;
+    }
+    .projectsCard p{
+        font-size: 1.75vh;
+        text-align: center;
+        padding: 0;
     }
     .header-name{
         display: none;
