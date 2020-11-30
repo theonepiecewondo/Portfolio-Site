@@ -1,0 +1,96 @@
+.main-container-page{
+    position: relative;
+    vertical-align: middle;
+    margin-top: 60vh;
+    height: 100%;
+    width: 100%;
+}
+#hero_feature {
+    background: url("../images/Server_Func_Main.PNG");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 5.4vh;
+
+  }
+  
+  #hero_text {
+    display: none;
+  }
+.flex-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 4vh;
+    font-size: 2vh;
+}
+
+#visit{
+    position: relative;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    color: #ffcb05;
+    background-color: #741ce8;
+    font-size: 2vh;
+    padding: 1vh 2vh 1vh 2vh;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#img1 {
+  background: url("../images/Server_Files.PNG");
+  height: 40vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+@media only screen and (max-width: 800px) {
+  #img1 {
+    display: none;
+  }
+}
+
+  @media only screen and (max-width: 700px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        overflow: hidden;
+    }
+    .flex-container h1{
+        margin: 0;
+        text-align: center;
+    }
+      #hero_text {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 3vh;
+        height: 100%;
+        color: #fff;
+      }
+      header{
+          margin-bottom: 0px;
+      }
+      #visit{
+        position: relative;
+        left: 45%;
+        transform: none;
+        top: 80%;
+      }
+  }

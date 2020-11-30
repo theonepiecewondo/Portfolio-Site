@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Projects - Server/Client</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Server.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <p class="header-name">Michael Baerlocher</p>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./projects.html">Projects</a>
+                <a href="#">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero_feature">
+    </section>
+    <main>
+        <div class="main-container-page">
+            <div class="flex-container">
+                <h1>Server/Client</h1>
+                <p>This is a text client and server that was made in C and C++ respectively. Link the Client Github <a href="https://github.com/theonepiecewondo/Client">Here</a> Also the Server Github <a href="https://github.com/theonepiecewondo/Server">Here</a></p>
+            </div>
+            <div id="img1"></div>
+            <div class="flex-container">
+                <p>
+                    This is a text client and server that was made in C and C++ respectively. The client is a basic client that allows you to connect to the game server to play a massive multiplayer adventure game. There are lots of different actions that can be seen with the /help action. 
+                </p>
+                <p>
+                    The client is made with C and uses the NCurses library to allow for the ascii art in a terminal. For the most part this client should work well, but lots of time was spent on the server rather than the client as another student made a better client that I used for most of the testing. So beware, they’re might be unintended bugs and glitches with my client.
+                </p>
+                <p>The server was made with C++ instead of C because it allows for lot more feature and feasibility when writing the code for the backend of the server. Since, the server does all the processing and work, a normal user doesn’t need to care about the server in most cases. The primary use of C++ for the server was for maps, which allows me to keep track of a list of the character objects.
+                </p>
+                <p>Lots of work went into improving and maintaining the server for stability and preventing glitches. Such as making sure a player cannot do actions that would break the game. Such as being dead, actually making you be dead. Making sure health doesn’t overflow, making sure damage doesn’t overflow, making sure it can at least handle 100 players at a time. We had a script that would flood a player with a certain number of specified bots that would preform actions in the game. With 100 bots in my server, the server never crashed.
+                </p>
+                <p>Now, I’m sure some of you are wonder how the server runs. Well, the server uses a protocol between the server and the client. A simple protocol that was designed, by my professor Seth Long, Lurk Protocol. The lurk protocol sends bytes of data to and from the server and based on the number sent, a action would be performed. If your curious about it I’ll leave a link <a href="http://isoptera.lcsc.edu/~seth/cs435/lurk_2.2.html">Here</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <a href="https://www.facebook.com/michael.baerlocher/"><img src="images/facebook.png"></a>
+            <a href="https://twitter.com/OnePieceWondo"><img src="images/twitter.png"></a>
+            <a href="https://github.com/theonepiecewondo"><img src="images/github.png"></a>
+            <p style="color: #fff">Copyright © 2020 Michael Baerlocher</p>
+        </div>
+    </footer>
+</body>
+
+</html>
