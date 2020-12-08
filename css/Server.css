@@ -62,6 +62,18 @@
 }
 
   @media only screen and (max-width: 700px) {
+    #hero_feature {
+      background: url("../images/Server_Func_Main.PNG");
+      height: 50vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: 32%;
+      background-size: cover;
+      position: absolute;
+      left: 0px;
+      top: 5.4vh;
+  
+    }
     .flex-container{
         display: flex;
         flex-direction: column;
