@@ -1,4 +1,6 @@
-
+html, body{
+    height: 100%;
+}
 nav a {
     text-decoration: none;
     background-color: transparent;
@@ -42,9 +44,7 @@ footer{
     width: 100%;
     min-height: 12vh;
     background-color: #741ce8;
-    position: absolute;
-    bottom: -1;
-    left: 0;
+    position: relative;
 }
 .footer-container{
     max-width: 970px;

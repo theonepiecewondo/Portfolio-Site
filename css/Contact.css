@@ -42,9 +42,6 @@ input[type=submit]:hover {
 ::placeholder{
   font-size: 1.5vh;
 }
-footer{
-  bottom: 0;
-}
 @media only screen and (max-width: 800px) {
   .container{
     width: 75%;
