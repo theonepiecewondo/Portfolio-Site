@@ -49,8 +49,4 @@ footer{
   .container{
     width: 75%;
   }
-  footer{
-    bottom: -5vh;
-    padding-bottom: 10px;
-  }
   }
