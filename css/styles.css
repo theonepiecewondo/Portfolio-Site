@@ -274,6 +274,9 @@ body{
     }
 }
   @media only screen and (max-width: 700px) {
+    nav a{
+        margin-left: 10px;
+    }
     .main-container{
         flex-direction: column;
     }
