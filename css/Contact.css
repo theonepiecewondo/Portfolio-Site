@@ -49,4 +49,7 @@ footer{
   .container{
     width: 75%;
   }
+  nav a{
+    margin-left: 10px;
+  }
   }
