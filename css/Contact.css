@@ -1,4 +1,8 @@
-
+html{
+}
+main{
+  height: 100%;
+}
 .main-container-page{
   display: flex;
   align-items: center;
@@ -44,6 +48,6 @@ input[type=submit]:hover {
 }
 @media only screen and (max-width: 800px) {
   .container{
-    width: 75%;
+    width: 70%;
   }
   }

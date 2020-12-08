@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+    margin: 0;
 }
 nav a {
     text-decoration: none;
@@ -42,7 +43,6 @@ nav{
 }
 footer{
     width: 100%;
-    min-height: 12vh;
     background-color: #741ce8;
     position: relative;
 }
