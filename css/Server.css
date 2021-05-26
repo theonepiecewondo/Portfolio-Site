@@ -6,7 +6,7 @@
     width: 100%;
 }
 #hero_feature {
-    background: url("../images/Server_Func_Main.PNG");
+    background: url("../images/Server_Func_Main.webp");
     height: 50vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 }
 
 #img1 {
-  background: url("../images/Server_Files.PNG");
+  background: url("../images/Server_Files.webp");
   height: 40vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 
   @media only screen and (max-width: 700px) {
     #hero_feature {
-      background: url("../images/Server_Func_Main.PNG");
+      background: url("../images/Server_Func_Main.webp");
       height: 50vh;
       width: 100%;
       background-repeat: no-repeat;

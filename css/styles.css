@@ -167,7 +167,7 @@ body{
   }
 
 .projectsImg{
-    background-image: url("../images/Dungeons-Characters.png");
+    background-image: url("../images/Dungeons-Characters.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -175,7 +175,7 @@ body{
 
 }
 .projectsImg2{
-    background-image: url("../images/Motivate-Me.jpg");
+    background-image: url("../images/Motivate-Me.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 23%;
@@ -184,7 +184,7 @@ body{
 
 }
 .projectsImg3{
-    background-image: url("../images/Server.PNG");
+    background-image: url("../images/Server.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -192,7 +192,7 @@ body{
 
 }
 .projectsImg4{
-    background-image: url("../images/DNDNext.PNG");
+    background-image: url("../images/DNDNext.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,7 +201,7 @@ body{
 
 }
 .projectsImg5{
-    background-image: url("../images/Dungeons-Characters-Site.PNG");
+    background-image: url("../images/Dungeons-Characters-Site.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,7 +210,7 @@ body{
 
 }
 .projectsImg6{
-    background-image: url("../images/coming-soon.jpg");
+    background-image: url("../images/coming-soon.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 25%;

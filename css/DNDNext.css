@@ -7,7 +7,7 @@
     justify-content: center;
 }
 #hero_feature {
-    background: url("../images/DnDNextBanner.PNG");
+    background: url("../images/DnDNextBanner.webp");
     height: 50vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@
         top: 80%;
       }
       #hero_feature {
-        background: url("../images/DnDNextBanner.PNG");
+        background: url("../images/DnDNextBanner.webp");
         height: 50vh;
         width: 100%;
         background-repeat: no-repeat;

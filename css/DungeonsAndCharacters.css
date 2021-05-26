@@ -7,7 +7,7 @@
     justify-content: center;
 }
 #hero_feature {
-    background: url("../images/DungeonsAndCharactersBanner.PNG");
+    background: url("../images/DungeonsAndCharactersBanner.webp");
     height: 50vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
         text-align: center;
     }
     #hero_feature {
-        background: url("../images/Dungeons-Characters-Site-Mobile.PNG") rgba(37, 37, 37, 0.4);
+        background: url("../images/Dungeons-Characters-Site-Mobile.webp") rgba(37, 37, 37, 0.4);
         width: 100%;
         height: 50vh;
         background-repeat: no-repeat;
